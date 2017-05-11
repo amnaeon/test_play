@@ -23,6 +23,7 @@ public class TelegramApi {
         CompletionStage<WSResponse> response = ws.url(path + "sendMessage")
                 .setContentType("application/json")
                 .post(Json.toJson(message));
+
         final CompletionStage<JsonNode> result = response.thenApply(wsResponse -> {
             JsonNode json = wsResponse.asJson();
             return json;
