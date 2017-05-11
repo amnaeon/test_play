@@ -4,7 +4,7 @@
 		module="play-java-seed-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170511005226"
+		publication="20170511092947"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
