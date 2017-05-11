@@ -45,6 +45,6 @@ public class Bot extends Controller {
 
             telegramApi.sendMessage(new TextMessageSendModel(requestData.get("chat").get("id").asLong(), message.message));
         }
-        return ok("Жив був пес");
+        return ok("кек");
     }
 }
