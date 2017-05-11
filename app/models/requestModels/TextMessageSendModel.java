@@ -9,7 +9,7 @@ public class TextMessageSendModel {
     }
 
     public TextMessageSendModel(long chat_id,String  text){
-        this.chat_id = 195512673;
+        this.chat_id = chat_id;
         this.text = text;
     }
 }

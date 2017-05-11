@@ -39,7 +39,6 @@ public class KeyboardController extends Controller {
         if (requestData != null) {
             Logger.error(request().body().asText());
             Logger.error(request().body().asJson().toString());
-            requestData = requestData.get("message");
             List<List<String>> keyWordList = new ArrayList<>();
             List<String> line = Arrays.asList("dsd","dddd","qqqqqq");
             keyWordList.add(line);

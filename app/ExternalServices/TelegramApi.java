@@ -3,6 +3,7 @@ package ExternalServices;
 import com.fasterxml.jackson.databind.JsonNode;
 import models.requestModels.TextMessageSendModel;
 import play.Configuration;
+import play.Logger;
 import play.libs.Json;
 import play.libs.ws.WSClient;
 import play.libs.ws.WSResponse;
@@ -40,5 +41,6 @@ public class TelegramApi {
             return json;
 
         });
+        Logger.info("dssd",result);
     }
 }
