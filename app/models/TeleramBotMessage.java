@@ -10,7 +10,7 @@ public class TeleramBotMessage {
     public static PlayJongo jongo = Play.application().injector().instanceOf(PlayJongo.class);
 
     public static MongoCollection messages() {
-        return jongo.getCollection("telegram_bot_message");
+        return jongo.getCollection("stusTemp");
     }
 
     @JsonProperty("_id")
