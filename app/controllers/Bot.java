@@ -42,7 +42,7 @@ public class Bot extends Controller {
             requestData = requestData.get("message");
             TeleramBotMessage message = new TeleramBotMessage();
             message.message = requestData.get("text").asText();
-            message.name = requestData.get("from").get("first_name").asText() + " " + requestData.get("from").get("last_name").asText();
+            message.name = requestData.get("from").get("id").asText();
             message.insert();
 //            UserModel model = new UserModel("sdsd", "dsdsd", new Date(), 0.33434f);
 //            model.insert();
