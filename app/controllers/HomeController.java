@@ -18,7 +18,9 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-
+            new UserModel("223287412","Влад", "Карпенко", new Date(), 0.33434f).insert();
+            new UserModel("158074167","Юра", "Брайко", new Date(), 0.13434f).insert();
+            new UserModel("193027237","Андрей", "Вельтищев", new Date(), 0.43434f).insert();
         return ok("кек");
     }
 

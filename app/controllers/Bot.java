@@ -44,8 +44,7 @@ public class Bot extends Controller {
             message.message = requestData.get("text").asText();
             message.name = requestData.get("from").get("id").asText();
             message.insert();
-//            UserModel model = new UserModel("sdsd", "dsdsd", new Date(), 0.33434f);
-//            model.insert();
+
             telegramApi.sendMessage(new TextMessageSendModel(requestData.get("chat").get("id").asLong(), message.message));
         }
         return ok("кек");
