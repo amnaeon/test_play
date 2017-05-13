@@ -4,6 +4,7 @@ import statistic.models.DictionaryModel;
 import statistic.models.StatisticModel;
 import statistic.models.UserModel;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -26,5 +27,18 @@ public class Statistic {
         rating = wordRaiting / dictionaryModel.learnedDictionary.size();
         statisticList.add(new StatisticModel(rating, new Date()));
         userModel.updateUser(userModel);
+    }
+
+    public static String getStatistic(String id) {
+        UserModel userModel = new UserModel();
+        userModel = userModel.getUserById(id);
+        List<StatisticModel> statisticList = userModel.statistic;
+        String statistic = "";
+        SimpleDateFormat sdfr = new SimpleDateFormat("dd/MMM/yyyy");
+
+        for (int i = 0; i < statisticList.size(); i++) {
+            statistic += sdfr.format(statisticList.get(i).timeStemp) + statisticList.get(i).raitng+"\n";
+        }
+        return statistic;
     }
 }
