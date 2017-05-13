@@ -33,8 +33,7 @@ public class HomeController extends Controller {
 //        new UserModel("223311212","test","343434343",dictionaryModel,statisticModelList).insert();
         UserModel userModel = new UserModel();
         userModel = userModel.getUserById("223311212");
-        userModel.name = "12345677889";
-        userModel.updateUser(userModel);
+
         return ok("кек");
     }
 
