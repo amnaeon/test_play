@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import models.TeleramBotMessage;
 import models.requestModels.TextMessageSendModel;
-import models.requestModels.UserModel;
 import play.Configuration;
 import play.Logger;
 import play.libs.ws.WSClient;
@@ -13,7 +12,6 @@ import play.mvc.Controller;
 import play.mvc.Result;
 
 import javax.inject.Inject;
-import java.util.Date;
 
 /**
  * Created by yurabraiko on 08.05.17.
@@ -44,7 +42,8 @@ public class Bot extends Controller {
             message.message = requestData.get("text").asText();
             message.name = requestData.get("from").get("id").asText();
             message.insert();
-
+//            UserModel model = new UserModel("sdsd", "dsdsd", new Date(), 0.33434f);
+//            model.insert();
             telegramApi.sendMessage(new TextMessageSendModel(requestData.get("chat").get("id").asLong(), message.message));
         }
         return ok("кек");
