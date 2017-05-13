@@ -18,4 +18,9 @@ public class DictionaryModel {
     public DictionaryModel() {
 
     }
+
+    public void update(List<WordModel> learnedDictionary, List<WordModel> studiedDictionary){
+        this.learnedDictionary = learnedDictionary;
+        this.studiedDictionary = studiedDictionary;
+    }
 }

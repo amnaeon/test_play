@@ -13,6 +13,10 @@ import java.util.List;
 public class UserModel {
     public static PlayJongo jongo = Play.application().injector().instanceOf(PlayJongo.class);
 
+    public UserModel() {
+
+    }
+
     public static MongoCollection messages() {
         return jongo.getCollection("users");
     }
@@ -40,8 +44,8 @@ public class UserModel {
         return this;
     }
 
-    public UserModel updateUserById(String id, UserModel newUserModel) {
-        messages().update("{user_id: \"" + id + "\"}").with(newUserModel);
+    public UserModel updateUser(UserModel newUserModel) {
+        messages().update("{user_id: \"" + this.userId + "\"}").with(newUserModel);
         return this;
     }
 

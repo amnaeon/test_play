@@ -13,4 +13,5 @@ public class StatisticModel {
         this.raitng = raitng;
         this.timeStemp = timeStemp;
     }
+
 }
