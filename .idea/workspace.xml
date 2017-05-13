@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7cb3bdf1-4420-42bd-b6b2-434c255b9adf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/statistic/models/UserModel.java" afterPath="$PROJECT_DIR$/app/statistic/models/UserModel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/resolution-cache/" />
     <ignored path="$PROJECT_DIR$/target/streams/" />
@@ -35,21 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="71">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/statistic/models/UserModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="547">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -124,8 +125,8 @@
         <option value="$PROJECT_DIR$/app/statistic/models/WordModel.java" />
         <option value="$PROJECT_DIR$/app/statistic/models/DictionaryModel.java" />
         <option value="$PROJECT_DIR$/app/statistic/models/StatisticModel.java" />
-        <option value="$PROJECT_DIR$/app/statistic/models/UserModel.java" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/app/statistic/models/UserModel.java" />
       </list>
     </option>
   </component>
@@ -924,7 +925,7 @@
       <workItem from="1494587292547" duration="2996000" />
       <workItem from="1494596152181" duration="558000" />
       <workItem from="1494659947194" duration="4336000" />
-      <workItem from="1494666039087" duration="1521000" />
+      <workItem from="1494666039087" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="hb">
       <created>1494454320825</created>
@@ -1038,11 +1039,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494667442503</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="oyufoitc">
+      <created>1494667578161</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1494667578161</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55899000" />
+    <option name="totallyTimeSpent" value="56257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1152,7 +1160,8 @@
     <MESSAGE value="fix routes" />
     <MESSAGE value="&#10;;hv" />
     <MESSAGE value="б" />
-    <option name="LAST_COMMIT_MESSAGE" value="б" />
+    <MESSAGE value="oyufoitc" />
+    <option name="LAST_COMMIT_MESSAGE" value="oyufoitc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1163,17 +1172,40 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/controllers/HomeController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/controllers/HomeController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/controllers/HomeController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/controllers/HomeController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/controllers/HomeController.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="31" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Play2FrameworkRunConfigurations">
-        <watch expression="messages().count()" language="JAVA" />
-        <watch expression="messages().find(&quot;{userId: 193027237}&quot;).as(UserModel.class)" language="JAVA" />
-        <watch expression="messages()" language="JAVA" />
-        <watch expression="messages().findOne(&quot;{userId: \&quot;193027237\&quot;}&quot;).as(UserModel.class)" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Filters.java">
@@ -1471,7 +1503,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1510,21 +1542,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/statistic/models/UserModel.java">
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="71">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/app/statistic/models/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="547">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
