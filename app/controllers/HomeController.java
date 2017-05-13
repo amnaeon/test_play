@@ -34,7 +34,6 @@ public class HomeController extends Controller {
         UserModel userModel = new UserModel();
         userModel = userModel.getUserById("223311212");
         userModel.name = "12345677889";
-        userModel.dictionary.update(new ArrayList<>(),new ArrayList<>());
         userModel.updateUser(userModel);
         return ok("кек");
     }
