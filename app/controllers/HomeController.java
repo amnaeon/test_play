@@ -1,6 +1,7 @@
 package controllers;
 
 import play.mvc.*;
+import statistic.Statistic;
 import statistic.models.DictionaryModel;
 import statistic.models.StatisticModel;
 import statistic.models.UserModel;
@@ -31,9 +32,8 @@ public class HomeController extends Controller {
 //        DictionaryModel dictionaryModel = new DictionaryModel(learnedDictionary,studiedDictionary);
 //        List<StatisticModel> statisticModelList = Arrays.asList(new StatisticModel(0.5f,new Date()),new StatisticModel(0.3f,new Date()));
 //        new UserModel("223311212","test","343434343",dictionaryModel,statisticModelList).insert();
-        UserModel userModel = new UserModel();
-        userModel = userModel.getUserById("223311212");
-        return ok(userModel.name);
+        Statistic.updateStatistic("223311212");
+        return ok("ssc");
     }
 
 
