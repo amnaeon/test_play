@@ -45,7 +45,7 @@ public class UserModel {
     }
 
     public UserModel updateUser(UserModel newUserModel) {
-        messages().update("{userId: \"" + this.userId + "\"}").with(newUserModel);
+        messages().update("{userId: " + this.userId + "}").with(newUserModel);
         return this;
     }
 
