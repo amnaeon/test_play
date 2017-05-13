@@ -33,8 +33,8 @@ public class HomeController extends Controller {
 //        List<StatisticModel> statisticModelList = Arrays.asList(new StatisticModel(0.5f,new Date()),new StatisticModel(0.3f,new Date()));
 //        new UserModel("223311212","test","343434343",dictionaryModel,statisticModelList).insert();
         Statistic.updateStatistic("223311212");
-        Statistic.getStatistic("223311212");
-        return ok("ssc");
+        return ok(Statistic.getStatistic("223311212"));
+
     }
 
 
