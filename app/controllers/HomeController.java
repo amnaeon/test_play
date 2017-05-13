@@ -32,9 +32,8 @@ public class HomeController extends Controller {
 //        DictionaryModel dictionaryModel = new DictionaryModel(learnedDictionary,studiedDictionary);
 //        List<StatisticModel> statisticModelList = Arrays.asList(new StatisticModel(0.5f,new Date()),new StatisticModel(0.3f,new Date()));
 //        new UserModel("223311212","test","343434343",dictionaryModel,statisticModelList).insert();
-        Statistic.updateStatistic("223311212");
-        return ok(Statistic.getStatistic("223311212"));
-
+        new UserModel().getUserById("223311212");
+        return ok("ssc");
     }
 
 

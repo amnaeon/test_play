@@ -36,7 +36,7 @@ public class UserModel {
     }
 
     public UserModel getUserById(String id) {
-        return messages().findOne("{\"userId\": " + id + "}").as(UserModel.class);
+        return messages().findOne("{\"userId\": \"" + id + "\"}").as(UserModel.class);
     }
 
     public UserModel insert() {
@@ -45,7 +45,7 @@ public class UserModel {
     }
 
     public UserModel updateUser(UserModel newUserModel) {
-        messages().update("{\"userId\": " + this.userId + "}").with(newUserModel);
+        messages().update("{\"userId\": \"" + this.userId + "\"}").with(newUserModel);
         return this;
     }
 
